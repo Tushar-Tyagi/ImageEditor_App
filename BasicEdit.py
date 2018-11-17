@@ -1,8 +1,6 @@
 #Tushar Tyagi
 #10/11/2018
 
-#!/usr/bin/env python3
-
 import tkinter
 import tkinter.messagebox as tkMessageBox
 from tkinter.filedialog import *
