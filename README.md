@@ -14,6 +14,6 @@ Open the BasicEdit file in dist folder:
 
 2. Select one or more options of edit.
 
-Modified files are saved in your folder.(*Vollah!*)
+Modified files are saved in your folder.(*Voilà!*)
 
 (Each modification creates a new file, not all edits are mereged into one file.)
