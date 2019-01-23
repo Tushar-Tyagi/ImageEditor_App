@@ -6,6 +6,11 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://www.python.org/)
 
+**Contribution:**
+1. Install tkinter and PIL libraries of python.
+2. Fork and clone.
+3. Get started!
+
 This app is based on tkinter and Pillow modules of python for basic operations on images like **sharpening**, **blurring, converting to BnW, reducing colour and reducing brightness.**
 
 Open the BasicEdit file in dist folder:
