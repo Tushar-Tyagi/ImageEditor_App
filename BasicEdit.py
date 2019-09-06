@@ -25,17 +25,17 @@ def main():
         if imgpath=="":
             messagebox.showerror("Error","Open image first")
         else:
-            top.destroy()
+            top.destroy() #Close the window.
 
 
 
-    top = tkinter.Tk()
+    top = tkinter.Tk() #The basic code used to create the main window of the application.
     B2 = tkinter.Button(top, activebackground='blue' , padx=2, pady=2, text ="Choose Editing Options",command= editB)
     B = tkinter.Button(top, activebackground='blue' , padx=2, pady=2, text ="Open Image", command = openImg)
 
     B.pack()
     B2.pack()
-    top.mainloop()
+    top.mainloop() #Infinite loop, wait for an event to occur and the process the event till the window is not closed.
 
     top = tkinter.Tk()
     CheckVar1 = IntVar()
@@ -92,7 +92,7 @@ def main():
         enhanced.save("Modified_5.jpg")
         #image.show()
         #del img
-    if (CheckVar2.get()==1):
+    if (CheckVar6.get()==1):
         enhancer=ImageEnhance.Color(image)
         enhanced = enhancer.enhance(0.7)
         enhanced.save("Modified_6.jpg")
